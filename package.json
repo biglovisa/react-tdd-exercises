@@ -17,19 +17,24 @@
   },
   "devDependencies": {
     "babel": "*",
+    "babel-loader": "^6.2.4",
     "babel-preset-airbnb": "*",
     "babel-register": "*",
     "chai": "*",
-    "enzyme": "*",
+    "css-loader": "^0.23.1",
+    "enzyme": "2.3.0",
     "jsdom": "*",
     "mocha": "*",
-    "react-addons-test-utils": "*"
+    "react-addons-test-utils": "*",
+    "style-loader": "^0.13.1",
+    "update": "^0.4.2"
   },
   "dependencies": {
     "babel-preset-airbnb": "^2.0.0",
     "jsdom": "^9.3.0",
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1"
   }
 }
