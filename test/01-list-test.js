@@ -1,9 +1,11 @@
 import React from "react";
 import { expect } from "chai";
 import { shallow, mount } from "enzyme";
-import List from "../src/01/ListTwo";
+import List from "../src/01/List";
 
-describe.only("Component: List", function() {
+// A component which renders inputs in a list
+
+describe("Component: List", function() {
 
   xit("contains a div with class `content`", function() {
     expect(shallow(<List />).find("div.content")).to.have.length(1);
@@ -13,7 +15,7 @@ describe.only("Component: List", function() {
     expect(shallow(<List />).find("input")).to.have.length(1);
   });
 
-  xit("has a button with text `Submit`", function() {
+  it("has a button with text `Submit`", function() {
     const wrapper = shallow(<List />);
     expect(wrapper.find("button")).to.have.length(1);
     expect(wrapper.find("button").first().text()).to.equal("Submit");

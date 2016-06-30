@@ -3,6 +3,8 @@ import { expect } from 'chai';
 import { shallow } from 'enzyme';
 import HelloWorld from '../src/00/HelloWorld';
 
+// Hello, World! in React
+
 describe("Component: Hello World", function() {
 
   xit("contains a div with class `hello-world`", function() {
