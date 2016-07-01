@@ -4,7 +4,8 @@
   "description": "React TDD exercises",
   "main": "build/index.js",
   "scripts": {
-    "test": "mocha test/.setup.js test/**/*-test.js"
+    "test": "mocha test/.setup.js test/**/*-test.js",
+    "test:watch": "mocha test/.setup.js test/**/*-test.js --watch"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "jsdom": "*",
     "mocha": "*",
     "react-addons-test-utils": "*",
+    "sinon": "^1.17.4",
     "style-loader": "^0.13.1",
     "update": "^0.4.2"
   },
