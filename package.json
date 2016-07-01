@@ -27,6 +27,7 @@
     "jsdom": "*",
     "mocha": "*",
     "react-addons-test-utils": "*",
+    "sinon": "^1.17.4",
     "style-loader": "^0.13.1",
     "update": "^0.4.2"
   },
