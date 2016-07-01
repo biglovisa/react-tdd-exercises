@@ -4,7 +4,8 @@
   "description": "React TDD exercises",
   "main": "build/index.js",
   "scripts": {
-    "test": "mocha test/.setup.js test/**/*-test.js"
+    "test": "mocha test/.setup.js test/**/*-test.js",
+    "test:watch": "mocha test/.setup.js test/**/*-test.js --watch"
   },
   "repository": {
     "type": "git",
