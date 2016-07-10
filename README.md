@@ -12,7 +12,7 @@ Testing tools: [Enzyme](http://airbnb.io/enzyme/), [Mocha](https://mochajs.org/)
 
 In the test folder there are enumerated test suites and every test in every test suite is skipped. Work with one test suite at a time, starting with the first one. Unskip one test at a time and write code to make it pass.
 
-If you want to debug your components from the browser, run `webpack` in your terminal and then open `index.html`.
+If you want to debug your components from the browser, open up `src/index.js` and change the imported component on line 4 to the component you are working on. Then run `webpack` in your terminal and then open `index.html`. 
 
 ```sh
 $ webpack
