@@ -17,16 +17,16 @@
     "url": "https://github.com/applegrain/react-tdd-exercises/issues"
   },
   "devDependencies": {
-    "babel": "*",
+    "babel": "^6.5.2",
     "babel-loader": "^6.2.4",
-    "babel-preset-airbnb": "*",
-    "babel-register": "*",
-    "chai": "*",
+    "babel-preset-airbnb": "^2.0.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
     "css-loader": "^0.23.1",
     "enzyme": "2.3.0",
-    "jsdom": "*",
-    "mocha": "*",
-    "react-addons-test-utils": "*",
+    "jsdom": "^9.4.1",
+    "mocha": "^2.5.3",
+    "react-addons-test-utils": "^15.2.1",
     "sinon": "^1.17.4",
     "style-loader": "^0.13.1",
     "update": "^0.4.2"
